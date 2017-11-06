@@ -2,7 +2,12 @@
   "name": "changeurday",
   "version": "0.1.0",
   "private": true,
+  "proxy": {
+    "/api": "http://localhost:3005/api"
+  },
   "dependencies": {
+    "axios": "^0.17.0",
+    "cors": "^2.8.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.17"
